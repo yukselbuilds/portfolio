@@ -18,6 +18,8 @@ Body 17px, supporting text at least 14px, headings 24px / 32px / 52px. Line heig
 
 Radius 2px on media controls and image edges. No shadows or boxed feature cards. Use 8, 16, 24, 32, 48 and 64px spacing. Project records are prose; platform facts use a definition list, not a repeated card kit. Images can expand in a native dialog.
 
+Keep each panel beside its own output or workflow explanation on wide screens, then stack in the same reading order on smaller screens. Preserve native media proportions: adjacent character videos and reference sheets use column ratios that give them equal image heights. Four square gallery images use four columns on desktop and two on narrower screens, never a three-plus-one wrap. Do not constrain a full-width image with a fixed or maximum height; that creates empty bars or distorts the visual hierarchy.
+
 ## Motion
 
 No hover lifts, image zoom animations, reveal effects or decorative motion. Videos play only on request and only one plays at a time. Native disclosure blocks keep the older work available. No custom cursor or scroll hijacking.
