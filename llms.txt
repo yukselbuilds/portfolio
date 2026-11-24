@@ -1,0 +1,18 @@
+# Yüksel Mahmutoğlu
+
+> Dijital pazarlama ve AI projelerinden seçilmiş çalışmalar. Kişisel proje portföyü.
+
+## Projeler
+
+- [PennyPinch](https://yukselbuilds.github.io/portfolio/#pennypinch): Headroom tabanlı yerel bağlam sıkıştırma ve token takibi için açık kaynak masaüstü uygulaması.
+- [Aida ve Natia](https://yukselbuilds.github.io/portfolio/#karakterler): 2025 karakter geliştirme ve ilk içerik örnekleri. Karakterler Bloom'a devredildi; sonraki hesap içerikleri Bloom ekibine ait.
+- [Video üretim stüdyosu](https://yukselbuilds.github.io/portfolio/#video-studyo): Mevcut proje arayüzü ve 29 Eylül 2026 render'ından 45 saniyelik örnek.
+- [Kreatif paneli](https://yukselbuilds.github.io/portfolio/#kreatif-panel): Giyim ve e-ticaret için görsel üretim arayüzü.
+- [İçerik stüdyosu](https://yukselbuilds.github.io/portfolio/#icerik-studyo): İhracat firması için hazırlanan görsel üretim paneli.
+- [Etiket aracı](https://yukselbuilds.github.io/portfolio/#etiket-uretimi): Yapılandırılmış ürün bilgisinden çok dilli etiket ve PDF çıktısı.
+
+## Profiller
+
+- [GitHub](https://github.com/yukselbuilds)
+- [LinkedIn](https://www.linkedin.com/in/yukselmahmutoglu/)
+- [İletişim](https://yukselbuilds.github.io/portfolio/#iletisim)
