@@ -1,31 +1,15 @@
 # Portfolio design decisions
 
-The page is a work sample for recruitment. Show what Yüksel Mahmutoğlu built and which part he contributed, with existing media and source links. The anchor is the actual software output: a panel, a character reference, a PDF and a public code repository. Keep their native appearance.
+This portfolio is for recruitment. Lead with Yüksel Mahmutoğlu’s digital marketing and e-commerce experience. The hero shows an actual tool that turns product data into a printable label. Eight projects are grouped by the work they represent.
 
-## Palette
+Projects share a short role and date, an authentic preview, a description of the contribution, a result and supporting links. Use actual deliverables or measured results. PennyPinch’s counts describe six synthetic local requests. The linked test conditions explain how the counts were obtained. Separate Bloom’s current accounts from the first character work.
 
-The light background is white, like the export canvas of the panels. The muted blue comes from the control surfaces, rather than a decorative AI colour scheme.
+## Layout
 
-Light: paper #ffffff, ink #24333f, secondary text #4c5c66, line #cbd4db, link/focus #214d68, image surface #edf1f4. Selection #d4e6f0. Media background #101b23.
-Dark follows system preference: paper #15222b, ink #e9eff3, secondary text #b7c5cf, line #445864, link/focus #9fcbe2, image surface #1d303d. Selection #355469.
+Georgia headings and native system body fonts give the page an editorial hierarchy without a font download. Cool neutral surfaces and one blue accent work with the system color scheme. The main width is capped at 72 rem. Grouped projects align their media and text on wide screens using CSS subgrid where supported. On narrow screens the projects follow their reading order in one column.
 
-## Typography
+Keep the native proportions of screenshots and film frames. Paper previews show the actual label and both pages of the anonymized report. Extra character and fashion samples are in native disclosures. The character gallery keeps an even grid when open. Original section anchors still work, and every project can be reached from the index.
 
-Headings font: "Bahnschrift", "Arial Narrow", Arial, sans-serif. Body font: "Segoe UI", Arial, sans-serif. Use only installed system fonts; the fallback should keep the same hierarchy.
-Body 17px, supporting text at least 14px, headings 24px / 32px / 52px. Line height 1.65 for body text; readable paragraphs remain under about 70 characters per line.
+## Media and access
 
-## Shape and spacing
-
-Radius 2px on media controls and image edges. No shadows or boxed feature cards. Use 8, 16, 24, 32, 48 and 64px spacing. Project records are prose; platform facts use a definition list, not a repeated card kit. Images can expand in a native dialog.
-
-Keep each panel beside its own output or workflow explanation on wide screens, then stack in the same reading order on smaller screens. Preserve native media proportions: adjacent character videos and reference sheets use column ratios that give them equal image heights. Four square gallery images use four columns on desktop and two on narrower screens, never a three-plus-one wrap. Do not constrain a full-width image with a fixed or maximum height; that creates empty bars or distorts the visual hierarchy.
-
-## Motion
-
-No hover lifts, image zoom animations, reveal effects or decorative motion. Videos play only on request and only one plays at a time. Native disclosure blocks keep the older work available. No custom cursor or scroll hijacking.
-
-## Copy
-
-Use project names and dates instead of slogans. Preserve tool versions when they establish the period of the work. Distinguish initial character work from the client's later content. Credit the Headroom engine in PennyPinch. No unmeasured savings, invented testimonials or customer metrics.
-
-Avoid tiny uppercase labels, numbered section ornaments, decorative arrow glyphs, forced three-part lists and large closing calls to action. Use direct links with descriptive text. Anchor IDs from the previous portfolio remain so previously shared section links continue to work on the new domain.
+One native dialog provides image and video previews. Video files, their posters for playback and caption tracks are loaded when a viewer chooses to play them. The original file links work if scripting is unavailable. Escape closes the dialog and focus returns to the link. A skip link, visible focus and the contact action stay available in either color scheme.

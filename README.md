@@ -1,6 +1,6 @@
 # Yüksel Mahmutoğlu — Portföy
 
-Üretken yapay zekâ, içerik üretimi ve otomasyon çalışmaları.
+Dijital pazarlama ve e-ticaret deneyimi, yapay zekâyla içerik üretimi ve otomasyon projeleri.
 
 Site: https://yukselbuilds.github.io/portfolio/
 
