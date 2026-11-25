@@ -11,6 +11,8 @@
   --selection: #d1e9f6;
   --media: #0e1820;
   --radius: 4px;
+  --project-column-gap: 1.875rem;
+  --fashion-gap: .75rem;
   --display: Georgia, "Times New Roman", serif;
   --text: system-ui, -apple-system, "Segoe UI", sans-serif;
 }
@@ -154,6 +156,7 @@ summary, button { font: inherit; touch-action: manipulation; }
 .experience dd, .tool-details p { margin-top: .25rem; color: var(--muted); font-size: .95rem; }
 .tool-details { margin-top: .75rem; }
 .tool-details p { max-width: 68ch; }
+.tool-details p + p { margin-top: .65rem; }
 summary {
   width: fit-content;
   min-height: 2.75rem;
@@ -194,7 +197,7 @@ summary:hover { text-decoration: underline; text-underline-offset: .2em; }
   margin-bottom: 1.25rem;
   border-bottom: 1px solid var(--line);
 }
-.project-pair { display: grid; gap: 1.875rem; align-items: start; }
+.project-pair { display: grid; gap: var(--project-column-gap); align-items: start; }
 .project { min-width: 0; display: grid; gap: .72rem; align-content: start; }
 .project:target > .project-heading h4 { color: var(--accent); }
 .project-meta {
@@ -272,6 +275,7 @@ figcaption {
   gap: .9rem;
 }
 .fashion-outputs, .archive-grid { max-width: 25rem; }
+.fashion-outputs { gap: var(--fashion-gap); }
 .archive-reference { max-width: 25rem; margin-top: 1.125rem; }
 .gallery-grid { max-width: 36rem; margin-top: 1.125rem; }
 .archive-details .project-links { margin-top: .5rem; }
@@ -331,8 +335,13 @@ figcaption {
   .experience-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .project-index ul { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .project-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .production-pair { grid-template-columns: minmax(0, 1.165fr) minmax(0, 1fr); }
-  .automation-pair { grid-template-columns: minmax(0, 1.0714fr) minmax(0, 1fr); }
+  .commerce-pair {
+    /* Share a preview height between two 1100:1971 images and a 2.15:1 paper frame. */
+    grid-template-columns: minmax(0, calc((100% - var(--project-column-gap) - var(--fashion-gap)) * .3417 + var(--fashion-gap))) minmax(0, 1fr);
+  }
+  .production-pair { grid-template-columns: minmax(0, 1fr) minmax(0, 1.165fr); }
+  .automation-pair { grid-template-columns: minmax(0, 1.1683fr) minmax(0, 1fr); }
+  .additional-pair { grid-template-columns: minmax(0, 1.2094fr) minmax(0, 1fr); }
   @supports (grid-template-rows: subgrid) {
     .project-pair { row-gap: .72rem; }
     .project { grid-row: span 6; grid-template-rows: subgrid; align-self: stretch; }

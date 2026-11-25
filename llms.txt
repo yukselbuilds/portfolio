@@ -1,20 +1,20 @@
 # Yüksel Mahmutoğlu
 
-> Dijital pazarlama ve e-ticaret portföyü. Seçilmiş mağaza analizi, yapay zekâyla içerik üretimi ve otomasyon projeleri.
+> E-ticaret, yapay zekâyla içerik üretimi ve uygulama geliştirme portföyü.
 
 ## Deneyim
 
-- [Deneyim](https://yukselbuilds.github.io/portfolio/#yaklasim): Dijital reklam, ölçümleme, mağaza operasyonu ve n8n otomasyonu.
+- [Deneyim](https://yukselbuilds.github.io/portfolio/#yaklasim): Shopify ve pazaryeri operasyonu. Yapay zekâyla görsel ve video üretimi. İşe özel uygulamalar ve n8n otomasyonu.
 
 ## Projeler
 
-- [Mağaza analizi](https://yukselbuilds.github.io/portfolio/#magaza-analizi): Ürün sayfaları, mobil deneyim ve SEO için iki sayfalık uygulama planı.
+- [Bashga](https://yukselbuilds.github.io/portfolio/#kreatif-panel): Bir giyim markası için yapay zekâyla ürün görselleri ve görsel üretim paneli.
 - [Çok dilli etiket aracı](https://yukselbuilds.github.io/portfolio/#etiket-uretimi): Ürün verisinden düzenlenebilir etiket, baskı PDF’i ve BarTender aktarımı.
-- [Bashga](https://yukselbuilds.github.io/portfolio/#kreatif-panel): Giyim ve e-ticaret için görünüm ve ortam seçilebilen kreatif panel.
-- [Dağbey Global](https://yukselbuilds.github.io/portfolio/#icerik-studyo): Bir ihracat firması için hazırlanan görsel üretim paneli.
-- [Video üretim stüdyosu](https://yukselbuilds.github.io/portfolio/#video-studyo): Araştırmadan render’a video üretim arayüzü ve 45 saniyelik örnek.
 - [Aida ve Natia](https://yukselbuilds.github.io/portfolio/#karakterler): Bloom için geliştirilen karakterler ve ilk içerikleri. Teslimden sonraki hesapları Bloom yönetiyor.
+- [Video üretim stüdyosu](https://yukselbuilds.github.io/portfolio/#video-studyo): Araştırmadan render’a video üretim arayüzü ve 45 saniyelik örnek.
+- [Dağbey Global](https://yukselbuilds.github.io/portfolio/#icerik-studyo): Bir ihracat firması için hazırlanan görsel üretim paneli.
 - [PennyPinch](https://yukselbuilds.github.io/portfolio/#pennypinch): Headroom ile yerel bağlam sıkıştırma ve token takibi yapan açık kaynak Windows önizlemesi.
+- [Mağaza analizi](https://yukselbuilds.github.io/portfolio/#magaza-analizi): Ürün sayfaları, mobil deneyim ve SEO için iki sayfalık uygulama planı.
 - [HyperFrames ile video otomasyonu](https://yukselbuilds.github.io/portfolio/#hyperframes): İngilizce anlatım ve hareketli grafiklerle hazırlanan videodan bir dakikalık örnek.
 
 ## İletişim
